@@ -20,7 +20,7 @@
 		<sap.cloud.sdk.name>neo-java-web-api</sap.cloud.sdk.name>
 		<!-- Specified the dedicated version or leave RELEASE so the latest available 
 			version is used. -->
-		<sap.cloud.sdk.version>RELEASE</sap.cloud.sdk.version>
+		<sap.cloud.sdk.version>2.47.11.1</sap.cloud.sdk.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
