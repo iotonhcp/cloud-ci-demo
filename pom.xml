@@ -15,12 +15,8 @@
 	</licenses>
 
 	<properties>
-		<!-- Use 'neo-java-web-api' for Java Web and Java Web Tomcat 7 HCP SDKs -->
-		<!-- Use 'neo-javaee6-wp-api' for Java EE 6 Web Profile HCP SDK -->
 		<sap.cloud.sdk.name>neo-java-web-api</sap.cloud.sdk.name>
-		<!-- Specified the dedicated version or leave RELEASE so the latest available 
-			version is used. -->
-		<sap.cloud.sdk.version>LATEST</sap.cloud.sdk.version>
+		<sap.cloud.sdk.version>2.47.11.1</sap.cloud.sdk.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -39,7 +35,7 @@
 			<plugin>
 				<groupId>com.sap.cloud</groupId>
 				<artifactId>neo-java-web-maven-plugin</artifactId>
-				<version>LATEST</version>
+				 <version>2.47.11.1</version>
 				<executions>
 					<execution>
 						<phase>install</phase>
