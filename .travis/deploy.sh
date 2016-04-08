@@ -1,3 +1,3 @@
 #!/bin/bash 
 
-ls ./target/sdk/tools/
+ls -lah ./target/
