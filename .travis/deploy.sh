@@ -18,5 +18,5 @@ $NEO restart -a "$ACCOUNT" \
     -u "$DEPLOY_USERNAME" \
     -p "$DEPLOY_PASSWORD" \
     --synchronous \
-    || return 1
+    || exit 1
 echo "DEPLOYMENT FINISHED"
