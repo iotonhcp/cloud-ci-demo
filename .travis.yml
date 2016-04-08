@@ -2,4 +2,4 @@ sudo: false
 language: java
 jdk: oraclejdk7
 after_script:  
-    - bash .travis/deploy.sh || exit $?
+    - bash .travis/deploy.sh ${TRAVIS_BRANCH} || exit $?
