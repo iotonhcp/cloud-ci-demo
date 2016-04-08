@@ -20,17 +20,17 @@
 		<sap.cloud.sdk.name>neo-java-web-api</sap.cloud.sdk.name>
 		<!-- Specified the dedicated version or leave RELEASE so the latest available 
 			version is used. -->
-		<sap.cloud.sdk.version>2.47.11.1</sap.cloud.sdk.version>
+		<sap.cloud.sdk.version>LATEST</sap.cloud.sdk.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
-		<!--dependency>
+		<dependency>
 			<groupId>com.sap.cloud</groupId>
 			<artifactId>${sap.cloud.sdk.name}</artifactId>
 			<version>${sap.cloud.sdk.version}</version>
 			<scope>provided</scope>
-		</dependency-->
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -39,7 +39,7 @@
 			<plugin>
 				<groupId>com.sap.cloud</groupId>
 				<artifactId>neo-java-web-maven-plugin</artifactId>
-				<version>2.47.11.1</version>
+				<version>LATEST</version>
 				<executions>
 					<execution>
 						<phase>install</phase>
