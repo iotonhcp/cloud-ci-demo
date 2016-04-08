@@ -37,6 +37,23 @@
 		<finalName>${project.artifactId}</finalName>
 		<plugins>
 			<plugin>
+				<groupId>com.sap.cloud</groupId>
+				<artifactId>neo-java-web-maven-plugin</artifactId>
+				<version>2.47.11.1</version>
+				<executions>
+					<execution>
+						<phase>install</phase>
+						<goals>
+							<goal>install-sdk</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<!-- Location of the SAP HANA Cloud Platform SDK -->
+					<sdkInstallPath>${project.build.directory}/sdk</sdkInstallPath>
+				</configuration>
+			</plugin>
+			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>2.5.1</version>
 				<configuration>
